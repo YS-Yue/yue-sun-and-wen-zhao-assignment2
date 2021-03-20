@@ -1,0 +1,39 @@
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80px;
+    height: 90px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.unselect{
+    background-color:rgb(255, 255, 255);
+    border: 3px solid rgba(81, 223, 197, 0.719);
+}
+
+.selected{
+    background-color:rgb(255, 255, 255);
+    border: 3px solid rgb(238, 128, 65);
+}
+
+#card.unselect:hover {
+    box-shadow:#ffce66 0 0 0px 5px;
+    border: 3px solid white;
+}
+
+.hint {
+    background-color:  #ffcf66a2;
+    border: 3px solid  #ffce66;
+}
+
+text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110px;
+    font-weight: bolder;
+}
