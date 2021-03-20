@@ -40,7 +40,7 @@ class App extends React.Component {
         return(
             <div>
                 <div className="navbar">
-                    <div className="gameTitle">Set Card Game</div>
+                    <div className="gameTitle">Set card Game</div>
                     <div className="links">
                         <Link className="linkButton" exact="true" to={"/Home"} onClick={() => this.handleDispatch("endGame")}><HomeIcon className="icon" /></Link>
                         <Link className="linkButton" exact="true" to={"/Rule"} onClick={() => this.handleDispatch("endGame")}><RuleIcon className="icon" /></Link>
@@ -48,6 +48,7 @@ class App extends React.Component {
                 </div>
                 <ToastContainer autoClose={1500} />
                 {this.contentToShow()}
+                <div className="footer"> </div>
             </div>
         )
     }
