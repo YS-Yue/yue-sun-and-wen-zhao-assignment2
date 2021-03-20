@@ -21,8 +21,8 @@ class App extends React.Component {
                 <div>
                     <div className="inGameButtonHolder">
                         <div className="gameButton" onClick={() => this.handleDispatch("newGame")}>reset game</div>
-                        <div className="gameButton" onClick={() => this.handleDispatch("moreCards")}>draw 3 cards</div>
-                        <div className="gameButton" onClick={() => this.handleDispatch("showHint")}>show a set</div> 
+                        <div className="gameButton" onClick={() => this.handleDispatch("moreCards")}>More cards</div>
+                        <div className="gameButton" onClick={() => this.handleDispatch("showHint")}>show hint</div> 
                         <div className="gameButton" onClick={() => this.handleDispatch("endGame")}>change mode</div>
                     </div>
                     <div className="deckInfo"><b>{this.props.deck.length}</b> cards left in deck</div>
