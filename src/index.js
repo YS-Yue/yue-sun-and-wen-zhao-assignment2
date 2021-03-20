@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/index.css';
+import './Style/index.css';
 import App from './Components/App';
 import Home from './Components/Home';
 import Rule from './Components/Rule';
